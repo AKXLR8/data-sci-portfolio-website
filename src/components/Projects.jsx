@@ -1,0 +1,50 @@
+const projects = [
+  {
+    title: "NYC Uber Demand Forecast",
+    img: "/proj-uber.png",
+    desc: "Time-series model (XGBoost + LSTM ensemble) predicting hourly ride demand; MAPE 8.2 %",
+    code: "https://github.com/username/uber-forecast",
+    demo: "https://nyc-uber-demand.vercel.app",
+  },
+  {
+    title: "Credit Default Classifier API",
+    img: "/proj-credit.png",
+    desc: "FastAPI micro-service serving gradient-boosted model; Dockerized & deployed on AWS ECS.",
+    code: "https://github.com/username/credit-api",
+  },
+  {
+    title: "AirBnB Price Dashboard",
+    img: "/proj-airbnb.png",
+    desc: "Interactive Power BI report uncovering drivers of listing prices in European cities.",
+    demo: "https://app.powerbi.com/view?r=...",
+  },
+];
+
+export default function Projects() {
+  return (
+    <section id="projects" className="section">
+      <h3 className="text-3xl font-semibold mb-10">Projects</h3>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projects.map(({ title, img, desc, code, demo }) => (
+          <article key={title} className="card">
+            <img src={img} alt={title} className="rounded-lg mb-4" />
+            <h4 className="text-xl font-semibold mb-2">{title}</h4>
+            <p className="text-sm leading-relaxed mb-4">{desc}</p>
+            <div className="flex gap-4">
+              {demo && (
+                <a href={demo} target="_blank" rel="noreferrer" className="text-accent underline">
+                  Live
+                </a>
+              )}
+              {code && (
+                <a href={code} target="_blank" rel="noreferrer" className="text-accent underline">
+                  Code
+                </a>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
