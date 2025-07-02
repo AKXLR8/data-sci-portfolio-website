@@ -36,16 +36,16 @@ export default function Home() {
 
         {/* Social Icons */}
         <div className="flex gap-5 text-2xl">
-          <a href="https://github.com/YOURUSERNAME" target="_blank">
+          <a href="https://github.com/AKXLR8" target="_blank">
             <FaGithub className="hover:text-accent transition" />
           </a>
-          <a href="https://linkedin.com/in/YOURUSERNAME" target="_blank">
+          <a href="https://www.linkedin.com/in/akshay-maniyampara-b2a058366/" target="_blank">
             <FaLinkedin className="hover:text-accent transition" />
           </a>
-          <a href="https://twitter.com/YOURUSERNAME" target="_blank">
+          <a href="https://x.com/rea1akshay?t=WDmGlbXvo7Ozmxr8dOlOyw&s=09" target="_blank">
             <FaTwitter className="hover:text-accent transition" />
           </a>
-          <a href="mailto:youremail@example.com">
+          <a href="akshaymaniyampara40@gmail.com">
             <MdEmail className="hover:text-accent transition" />
           </a>
         </div>
