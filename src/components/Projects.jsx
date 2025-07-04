@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "NYC Uber Trip Analysis",
-    img: "/public/uber_2018_logo.png",
+    img: "/uber_2018_logo.png",
     desc: "Built a time-series ensemble model (XGBoost + Random Forest + GBRT) to forecast hourly Uber ride demand (MAPE: 9.52%, R²: 0.966), with API deployment using Flask",
     code: "https://github.com/username/uber-forecast",
     demo: "https://uber-trip-predictor.vercel.app/",
