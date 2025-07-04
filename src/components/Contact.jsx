@@ -1,41 +1,74 @@
+import { useState } from "react";
 
 export default function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+
   return (
-    <section id="contact" className="section">
-      <h3 className="text-3xl font-semibold mb-6">Get in touch</h3>
-      <form
-        className="card max-w-xl mx-auto space-y-4"
-        action="https://formspree.io/f/yourID"
-        method="POST"
-      >
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          required
-          className="w-full p-3 rounded bg-primary border border-gray-600 focus:outline-accent"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          required
-          className="w-full p-3 rounded bg-primary border border-gray-600 focus:outline-accent"
-        />
-        <textarea
-          name="message"
-          placeholder="Message"
-          rows="5"
-          required
-          className="w-full p-3 rounded bg-primary border border-gray-600 focus:outline-accent"
-        ></textarea>
-        <button
-          type="submit"
-          className="block w-full py-3 rounded-full bg-accent text-primary font-semibold hover:scale-105 transition"
-        >
-          Send
-        </button>
-      </form>
+    <section id="contact" className="section text-white bg-primary">
+      <div className="max-w-xl mx-auto text-center">
+        <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
+        <p className="text-lg mb-8 text-gray-300">
+          Have a question or want to collaborate? Drop me a message below!
+        </p>
+
+        {submitted ? (
+          <p className="text-green-400 text-lg font-medium mt-6">
+            ✅ Thanks for your message! I'll be in touch soon.
+          </p>
+        ) : (
+          <form
+            action="https://formsubmit.co/your-email@example.com"
+            method="POST"
+            className="flex flex-col space-y-4 text-left"
+            onSubmit={() => setSubmitted(true)}
+          >
+            {/*  Spam Protection */}
+            <input type="text" name="_honey" style={{ display: "none" }} />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="box" />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thanks for reaching out! I'll get back to you soon."
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourdomain.com/thank-you"
+            />
+
+            {/*  Visible Fields */}
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+              className="p-3 rounded-lg bg-white text-black"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              className="p-3 rounded-lg bg-white text-black"
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+              rows="5"
+              className="p-3 rounded-lg bg-white text-black"
+            />
+
+            <button
+              type="submit"
+              className="bg-accent text-primary font-semibold py-3 px-6 rounded-full hover:scale-105 transition"
+            >
+              Send Message
+            </button>
+          </form>
+        )}
+      </div>
     </section>
   );
 }
