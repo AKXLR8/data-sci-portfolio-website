@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "NYC Uber Demand Forecast",
-    img: "/proj-uber.png",
-    desc: "Time-series model (XGBoost + LSTM ensemble) predicting hourly ride demand; MAPE 8.2 %",
+    title: "NYC Uber Trip Analysis",
+    img: "/public/uber_2018_logo.png",
+    desc: "Built a time-series ensemble model (XGBoost + Random Forest + GBRT) to forecast hourly Uber ride demand (MAPE: 9.52%, R²: 0.966), with API deployment using Flask",
     code: "https://github.com/username/uber-forecast",
-    demo: "https://nyc-uber-demand.vercel.app",
+    demo: "https://uber-trip-predictor.vercel.app/",
   },
   {
     title: "Credit Default Classifier API",

@@ -10,6 +10,8 @@ export default {
       colors: {
         primary: "#000000",
         accent: "#F5F5DC",
+        beige: "#FDF6E3",
+
       },
       animation: {
         glow: "glow 2.5s ease-in-out infinite",
