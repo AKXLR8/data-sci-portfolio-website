@@ -17,7 +17,7 @@ export default function Contact() {
           </p>
         ) : (
           <form
-            action="https://formsubmit.co/your-email@example.com"
+            action="https://formsubmit.co/akshaymaniyampara40@gmail.com"
             method="POST"
             className="flex flex-col space-y-4 text-left"
             onSubmit={() => setSubmitted(true)}
