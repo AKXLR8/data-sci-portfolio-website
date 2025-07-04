@@ -7,7 +7,7 @@ export default function About() {
           Passionate about turning raw data into actionable intelligence.
           Experienced in end-to-end ML pipelines, from data ingestion to seamless
           deployment of predictive services. I love Kaggle competitions,
-          visualizing insights, and mentoring aspiring data scientists.
+          visualizing insights.
         </p>
         <ul className="space-y-3">
           <li>🎓 B.Sc. Data Science (2026)</li>
