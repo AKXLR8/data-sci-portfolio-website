@@ -65,7 +65,7 @@ export default function Education() {
           </div>
 
           <div className="flex justify-between text-xs pt-4 border-t border-gray-700 text-gray-400">
-            <span>⚫ Status: <span className="text-green-400">Ready</span></span>
+            <span>🟢Status: <span className="text-green-400">Ready</span></span>
             <span>Education Terminal v2.1.0</span>
           </div>
         </div>
