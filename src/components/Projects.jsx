@@ -7,10 +7,10 @@ const projects = [
     demo: "https://uber-trip-predictor.vercel.app/",
   },
   {
-    title: "Credit Default Classifier API",
-    img: "/proj-credit.png",
-    desc: "FastAPI micro-service serving gradient-boosted model; Dockerized & deployed on AWS ECS.",
-    code: "https://github.com/username/credit-api",
+    title: "portfolio-backtesting-engine-SQL ",
+    img: "/stocks.png",
+    desc: " Portfolio Backtesting Engine (SQL + Streamlit) Built a portfolio analytics system using PostgreSQL to calculate annual returns, volatility, and Sharpe ratio.Visualized results with Streamlit and deployed the dashboard using NeonDB and GitHub.",
+    code: "https://akxlr8-portfolio-backtesting-engine-sql-usingstreamlit-qnxtfl.streamlit.app/",
   },
   {
     title: "AirBnB Price Dashboard",
