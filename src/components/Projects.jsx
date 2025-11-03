@@ -13,10 +13,10 @@ const projects = [
     code: "https://akxlr8-portfolio-backtesting-engine-sql-usingstreamlit-qnxtfl.streamlit.app/",
   },
   {
-    title: "AirBnB Price Dashboard",
-    img: "/proj-airbnb.png",
-    desc: "Interactive Power BI report uncovering drivers of listing prices in European cities.",
-    demo: "https://app.powerbi.com/view?r=...",
+    title: "EV Infrastructure in India - PowerBi Dashboard",
+    img: "/-removebg-preview.png",
+    desc: "Interactive Power BI report uncovering Infrastructural Condition of India in EV sector.",
+    git: "https://github.com/AKXLR8/EV-Infrastructure-in-India-PowerBi-Dashboard",
   },
 ];
 

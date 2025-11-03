@@ -27,7 +27,7 @@ export default function Home() {
 
         {/* Download CV */}
         <a
-          href="/Akshay updatedCV.pdf"
+          href="/resume.pdf"
           download
           className="px-6 py-3 border-2 border-accent rounded-full text-white hover:bg-accent hover:text-primary transition mb-6"
         >
