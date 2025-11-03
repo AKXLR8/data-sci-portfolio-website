@@ -41,6 +41,12 @@ export default function Projects() {
                   Code
                 </a>
               )}
+
+              {git && (
+                <a href={git} target="_blank" rel="noreferrer" className="text-accent underline">
+                  Code
+                </a>
+              )}
             </div>
           </article>
         ))}
