@@ -23,7 +23,7 @@ const projects = [
     title: "EV Infrastructure in India - PowerBi Dashboard",
     img: "/-removebg-preview.png",
     desc: "Interactive Power BI report uncovering Infrastructural Condition of India in EV sector.",
-    code: "https://github.com/AKXLR8/EV-Infrastructure-in-India-PowerBi-Dashboard",
+    git : "https://github.com/AKXLR8/EV-Infrastructure-in-India-PowerBi-Dashboard",
   },
 ];
 
