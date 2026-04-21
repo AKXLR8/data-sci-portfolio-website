@@ -13,7 +13,7 @@ const projects = [
     code: "https://akxlr8-portfolio-backtesting-engine-sql-usingstreamlit-qnxtfl.streamlit.app/",
   },
   {
-    title: "Financial Signal Processing Pipeline with MLOps Pipeline",
+    title: "Financial Signal Processing Pipeline with MLOps",
     img: "/image.png",
     desc: "It processes financial time-series data (OHLCV), generates trading signals, and produces structured metrics along with detailed logs.",
     code: "https://github.com/AKXLR8/MLOps-batch-pipeline-with-multiple-signal-strategies",
