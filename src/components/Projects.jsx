@@ -13,6 +13,13 @@ const projects = [
     code: "https://akxlr8-portfolio-backtesting-engine-sql-usingstreamlit-qnxtfl.streamlit.app/",
   },
   {
+    title: "Financial Signal Processing Pipeline with MLOps Pipeline",
+    img: "/image.png",
+    desc: "It processes financial time-series data (OHLCV), generates trading signals, and produces structured metrics along with detailed logs.",
+    code: "https://github.com/AKXLR8/MLOps-batch-pipeline-with-multiple-signal-strategies",
+    demo: "https://mlops-batch-pipeline-with-multiple-signal-strategies-czicnpty3.streamlit.app/"
+  },
+  {
     title: "EV Infrastructure in India - PowerBi Dashboard",
     img: "/-removebg-preview.png",
     desc: "Interactive Power BI report uncovering Infrastructural Condition of India in EV sector.",
