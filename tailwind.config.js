@@ -1,5 +1,3 @@
-import { transform } from "framer-motion";
-
 export default {
   content: [
     "./index.html",
@@ -8,13 +6,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#000000",
-        accent: "#F5F5DC",
-        beige: "#FDF6E3",
-
+        primary: "#0B1926",
+        accent: "#D4A373",
+        accent2: "#E6C9A8",
+        tan: "#D4A373",
+        "tan-light": "#E6C9A8",
       },
       animation: {
         glow: "glow 2.5s ease-in-out infinite",
+        "scroll-left": "scroll-left 20s linear infinite",
       },
       keyframes: {
         glow: {
@@ -27,8 +27,12 @@ export default {
             boxShadow: "0 0 20px #00CC99, 0 0 35px #00CC99",
           },
         },
+        "scroll-left": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 };
