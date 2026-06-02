@@ -21,7 +21,7 @@ export default function AboutCard() {
           production APIs. I'm passionate about ML + software engineering.
         </motion.p>
         <motion.p {...fadeUp(0.12)} className="text-sm text-gray-500 leading-relaxed">
-          Beyond data: football, gaming, and exploring new tech.
+          Beyond data: badminton, gaming, and exploring new tech.
         </motion.p>
       </div>
     </div>
