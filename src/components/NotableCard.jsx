@@ -4,7 +4,7 @@ export default function NotableCard() {
   return (
     <div className="relative h-full w-full bg-primary flex items-center group cursor-default">
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(212,163,115,0.25),transparent_60%)]" />
-      <div className="relative w-full px-4 sm:px-5 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5">
+      <div className="relative w-full px-4 sm:px-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
         <motion.div
           initial={{ opacity: 0, x: -8 }}
           animate={{ opacity: 1, x: 0 }}
@@ -39,18 +39,15 @@ export default function NotableCard() {
           initial={{ opacity: 0, x: 8 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3, delay: 0.2 }}
-          className="shrink-0 text-left sm:text-right"
+          className="shrink-0 self-stretch sm:self-auto flex items-start sm:items-center"
         >
-          <p className="text-xs text-gray-500">
-            <span className="text-accent">Avishkar 2025</span>
-          </p>
           <a
-            href="https://github.com/AKXLR8/Medmira"
+            href="/20th%20Aavishkar.jpeg"
             target="_blank"
             rel="noreferrer"
-            className="text-xs text-gray-500 hover:text-accent transition-colors mt-1 inline-flex items-center gap-1"
+            className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg border border-accent/20 text-accent hover:bg-accent/10 active:bg-accent/20 transition-colors"
           >
-            GitHub <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            Avishkar 2025
           </a>
         </motion.div>
       </div>

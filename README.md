@@ -14,8 +14,8 @@
 
 ## 🧭 Overview
 
-This responsive portfolio website highlights **Akshay Maniyampara’s** professional expertise in **Data Science, Machine Learning, and Motion Design**.
-It’s designed as a dynamic one-page web app that blends **aesthetic design** with **data-driven storytelling**, integrating ML demos like the *Uber Trip Demand Forecaster* and other analytics projects.
+This responsive portfolio website highlights **Akshay Maniyampara's** professional expertise in **Data Science, Machine Learning, and Motion Design**.
+It's designed as a dynamic one-page web app that blends **aesthetic design** with **data-driven storytelling**, integrating ML demos like the *Uber Trip Demand Forecaster* and other analytics projects.
 
 ---
 
@@ -62,7 +62,7 @@ data-sci-portfolio-website/
 
 | Component           | Description                                                                      |
 | ------------------- | -------------------------------------------------------------------------------- |
-| **Intro.jsx**       | Multilingual “Hello World” splash animation using Framer Motion.                 |
+| **Intro.jsx**       | Multilingual "Hello World" splash animation using Framer Motion.                 |
 | **Home.jsx**        | Hero section — personal intro, animated photo, social links.                     |
 | **About.jsx**       | Professional summary and highlights.                                             |
 | **Education.jsx**   | Terminal-style education timeline (interactive).                                 |
@@ -186,4 +186,4 @@ vercel --prod
 * Add live ML demo integration (Flask API + React frontend)
 * Include blog section for data case studies
 * Dark/light theme toggle
-* Add analytics tracking (PostHog / Plausible)
+* Add analytics tracking (PostHog / Plausible) 

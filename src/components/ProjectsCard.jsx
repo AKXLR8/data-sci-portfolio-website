@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Vector Auditor",
+    year: "2026",
+    desc: "Drop in PDFs/DOCXs, ask anything, and get grounded answers with inline page citations. Vector Auditor combines miniLM embeddings, a cross-encoder reranker, and Mercury-2 LLM with guardrails, PII detection, and multi-user auth — all behind a FastAPI backend on HF Spaces..",
+    image: "/vector-auditor.png",
+    url: "https://vector-auditor-frontend.vercel.app/",
+    tags: ["RAG", "LLM", "Python", "LangChain"],
+  },
+  {
     title: "NYC Uber Trip Analysis",
     year: "2025",
     desc: "Ensemble model forecasting Uber demand — MAPE 9.52%, R² 0.966.",
