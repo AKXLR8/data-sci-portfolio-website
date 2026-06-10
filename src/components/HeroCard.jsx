@@ -39,7 +39,7 @@ export default function HeroCard() {
         </motion.p>
         <motion.h1
           {...fadeUp(0.05)}
-          className="text-2xl sm:text-3xl leading-[1.5] tracking-[-0.5px] font-normal text-white"
+          className="text-2xl sm:text-3xl leading-[1.7] tracking-[-0.5px] font-normal text-white"
           style={{ fontFamily: "'Instrument Serif', serif" }}
         >
           I'm <span className="gradient-text">Akshay</span>,<br />
