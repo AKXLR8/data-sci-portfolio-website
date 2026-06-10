@@ -4,10 +4,13 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   background-color: #0B1926;
-  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: auto;
   -webkit-tap-highlight-color: transparent;
 }
 
