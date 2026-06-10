@@ -4,7 +4,7 @@ export default function NotableCard() {
   return (
     <div className="relative h-full w-full bg-primary flex items-center group cursor-default">
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(212,163,115,0.25),transparent_60%)]" />
-      <div className="relative w-full px-4 sm:px-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
+      <div className="relative w-full px-4 sm:px-5 pt-[2px] flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
         <motion.div
           initial={{ opacity: 0, x: -8 }}
           animate={{ opacity: 1, x: 0 }}
