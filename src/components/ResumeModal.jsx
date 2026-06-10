@@ -38,7 +38,7 @@ export default function ResumeModal() {
                 <span className="text-sm text-gray-400">Resume — Akshay Maniyampara</span>
                 <div className="flex items-center gap-2">
                   <a
-                    href="/newR.pdf"
+                    href="/resume.pdf"
                     download
                     className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg border border-accent/20 text-accent hover:bg-accent/10 active:bg-accent/20 transition-colors"
                   >
@@ -55,12 +55,12 @@ export default function ResumeModal() {
 
               <div className="flex-1 min-h-0 bg-[#1a1a2e]">
                 <object
-                  data="/newR.pdf#toolbar=0&navpanes=0&scrollbar=1"
+                  data="/resume.pdf#toolbar=0&navpanes=0&scrollbar=1"
                   type="application/pdf"
                   className="w-full h-full"
                 >
                   <iframe
-                    src="/newR.pdf"
+                    src="/resume.pdf"
                     className="w-full h-full"
                     title="Resume"
                   />
