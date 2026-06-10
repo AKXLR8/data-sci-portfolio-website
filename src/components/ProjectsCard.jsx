@@ -70,7 +70,7 @@ export default function ProjectsCard() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.06, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="group flex flex-col rounded-lg border border-white/[0.08] bg-primary p-5 hover:border-accent/25 hover:bg-[#0F2135] active:bg-[#0F2135] active:border-accent/30 transition-all duration-300 overflow-y-auto min-w-[240px] sm:min-w-[260px] snap-start"
+              className="group flex flex-col rounded-lg border border-white/[0.08] bg-primary p-5 hover:border-accent/25 hover:bg-[#0F2135] active:bg-[#0F2135] active:border-accent/30 transition-all duration-300 overflow-y-auto max-h-full min-w-[240px] sm:min-w-[260px] snap-start"
             >
               {p.image && (
                 <div className="relative h-28 -mx-5 -mt-5 mb-4">
