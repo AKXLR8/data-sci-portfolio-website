@@ -59,7 +59,7 @@ export default function ProjectsCard() {
           <h3 className="text-sm text-[#0B1926]/50 uppercase tracking-[0.15em] shrink-0">Projects</h3>
           <div className="flex-1 h-px bg-[#0B1926]/10" />
         </div>
-        <div className="flex gap-4 overflow-x-auto overflow-y-auto flex-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory" style={{ overscrollBehavior: "contain" }}>
+        <div className="flex gap-4 overflow-x-auto flex-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory">
           {projects.map((p, i) => (
             <motion.a
               key={p.title}
@@ -70,7 +70,7 @@ export default function ProjectsCard() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.06, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="group flex flex-col rounded-lg border border-white/[0.08] bg-primary p-5 hover:border-accent/25 hover:bg-[#0F2135] active:bg-[#0F2135] active:border-accent/30 transition-all duration-300 overflow-y-auto max-h-full min-w-[240px] sm:min-w-[260px] snap-start"
+              className="group flex flex-col rounded-lg border border-white/[0.08] bg-primary p-5 hover:border-accent/25 hover:bg-[#0F2135] active:bg-[#0F2135] active:border-accent/30 transition-all duration-300 overflow-hidden min-w-[240px] sm:min-w-[260px] snap-start"
             >
               {p.image && (
                 <div className="relative h-28 -mx-5 -mt-5 mb-4">
