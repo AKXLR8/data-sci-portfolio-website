@@ -30,12 +30,12 @@ export default function ToolkitCard() {
   return (
     <div className="h-full w-full flex flex-col p-4 sm:p-5 bg-[#c1a37f]">
       <h3 className="text-sm text-[#0B1926]/50 uppercase tracking-[0.15em] mb-3">Toolkit</h3>
-      <motion.div {...fadeUp(0)} className="flex flex-wrap gap-1.5">
+      <motion.div {...fadeUp(0)} className="flex flex-wrap gap-x-3 gap-y-1.5">
         {tools.map((t) => (
           <span
             key={t.name}
-            className="text-xs px-2 py-0.5 rounded border font-medium"
-            style={{ borderColor: `${t.color}33`, color: "#0B1926", backgroundColor: `${t.color}0D` }}
+            className="text-xs font-medium"
+            style={{ color: "#0B1926" }}
           >
             {t.name}
           </span>
