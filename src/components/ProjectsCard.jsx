@@ -56,7 +56,7 @@ export default function ProjectsCard() {
       <div className="relative h-full w-full flex flex-col p-3 sm:p-5">
         <div className="flex items-center gap-4 mb-4">
           <div className="flex-1 h-px bg-[#0B1926]/10" />
-          <h3 className="text-sm text-[#0B1926]/50 uppercase tracking-[0.15em] shrink-0">Projects</h3>
+          <h3 className="text-sm text-[#0B1926]/50 uppercase tracking-[0.15em] shrink-0">SideQuests</h3>
           <div className="flex-1 h-px bg-[#0B1926]/10" />
         </div>
         <div className="flex gap-4 overflow-x-auto flex-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory">
