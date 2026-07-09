@@ -16,7 +16,7 @@ export default function App() {
       <div className="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-tan/10 rounded-full blur-[120px]" />
       <div className="pointer-events-none absolute -bottom-40 right-0 w-[400px] h-[400px] bg-tan/5 rounded-full blur-[100px]" />
 
-      <div className="mx-auto max-w-6xl grid gap-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-15 lg:max-h-[1600px] lg:gap-5 relative">
+      <div className="mx-auto max-w-6xl grid gap-3 sm:gap-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-15 lg:gap-5 relative">
         <Card className="lg:col-span-2 lg:row-span-4" noPadding>
           <HeroCard />
         </Card>

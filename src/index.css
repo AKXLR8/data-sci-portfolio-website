@@ -3,18 +3,11 @@
 @tailwind utilities;
 
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 body {
   background-color: #0B1926;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior-y: auto;
   -webkit-tap-highlight-color: transparent;
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100%;
 }
 
 .gradient-text {
