@@ -7,8 +7,18 @@ const projects = [
     desc: "Drop in PDFs/DOCXs, ask anything, and get grounded answers with inline page citations. Vector Auditor combines miniLM embeddings, a cross-encoder reranker, and Mercury-2 LLM with guardrails, PII detection, and multi-user auth — all behind a FastAPI backend on HF Spaces..",
     image: "/vector-auditor.png",
     url: "https://vector-auditor-frontend.vercel.app/",
+    Code: "https://github.com/AKXLR8/Vector-Auditor",
     tags: ["RAG", "LLM", "Python", "LangChain"],
   },
+    {
+    title: "Transformer Visualizer",
+    year: "2026",
+    desc: "Visualize attention heads and embeddings of transformer models in real-time. Helps understand model behavior and interpretability.",
+    url: "https://transformer-in-numpy-ainu.vercel.app/",
+    Code: "https://github.com/AKXLR8/Transformer-Visualizer",
+    tags: ["Transformer", "Python", "Numpy"],
+  },
+  
   {
     title: "NYC Uber Trip Analysis",
     year: "2025",
