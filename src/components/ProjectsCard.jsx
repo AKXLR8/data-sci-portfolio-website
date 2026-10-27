@@ -2,6 +2,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "ReRoute.Ai",
+    year: "2026",
+    desc: "ReRouteAI is a self-hosted, OpenAI-compatible gateway that routes requests across your own LLM provider keys with semantic caching, rate limits, retries/fallbacks, and per-user isolation.",
+    image: "/ReRoute.png",
+    url: "https://re-route-nzdy.vercel.app/",
+    Code: "https://github.com/AKXLR8/ReRoute",
+    tags: ["ONNX MiniLM","Python","Redis"],
+  },
+
+  {
     title: "Vector Auditor",
     year: "2026",
     desc: "Drop in PDFs/DOCXs, ask anything, and get grounded answers with inline page citations. Vector Auditor combines miniLM embeddings, a cross-encoder reranker, and Mercury-2 LLM with guardrails, PII detection, and multi-user auth — all behind a FastAPI backend on HF Spaces..",
